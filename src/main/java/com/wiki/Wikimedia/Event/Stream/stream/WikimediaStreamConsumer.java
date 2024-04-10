@@ -24,6 +24,8 @@ public class WikimediaStreamConsumer {
     }
 
     public void consumeStreamAndPublish(){
+        log.info("Streaming started");
+
         webClient.get()
                 .uri("/stream/recentchange")
                 .retrieve()

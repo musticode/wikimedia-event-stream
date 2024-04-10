@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WikimediaController {
 
 
-    // https://youtu.be/uFCcr2hdN_E?list=PL41m5U3u3wwk7AOA7wSbrwUvMK_uUQ46u&t=1065
-
     private final WikimediaStreamConsumer streamConsumer;
 
     @GetMapping
